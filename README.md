@@ -14,5 +14,7 @@ Where I arrange what I learned today.
 
   * <a href="./2ndweek/2020-07-14.md">2020-07-14 / 웹 표준, CSS의 네이밍 방법론과 아웃라인 배치, 스타일,초기화 적용방식 및 웹 폰트(Web Font)</a>
   
+  * <a href="./2ndweek/2020-07-15.md">2020-07-15/ 아웃라인을 위한 방법 /Float와 clearfix / Flex</a>
+  
     
 
