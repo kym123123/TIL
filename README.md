@@ -16,5 +16,7 @@ Where I arrange what I learned today.
   
   * <a href="./2ndweek/2020-07-15.md">2020-07-15/ 아웃라인을 위한 방법 /Float와 clearfix / Flex</a>
   
+  * <a href="./2ndweek/2020-07-16.md">2020-07-16/ 아웃라인을 위한 이론(position, inline/inline-block)/ 웹 접근성을 높이기 위한 방법(마크업, 스타일)</a>
+  
     
 
