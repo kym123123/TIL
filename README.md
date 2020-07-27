@@ -19,7 +19,6 @@ Where I arrange what I learned today.
 * 3주차
   * <a href="./2ndweek/2020-07-20.md">2020-07-20 / Form요소/ loginform실습</a>
   * <a href="./2ndweek/2020-07-21.md">2020-07-21 / background-image / vertical-align / padding,margin겹칩현상(부모-자식요소)/ <dl,dt,dd> 를 이용한 선형화 구조</a>
-  * <a href="./2ndweek/2020-07-20.md">2020-07-20 / Form요소/ loginform실습</a>
   * <a href="./2ndweek/2020-07-2223.md">2020-07-22,23 figure/  time / ARIA(accessible rich internet application)</a>
   * <a href="./2ndweek/20200726ARIA.md">2020-07-26 ARIA의 속성,상태,역할 및 사용 예시/주의사항</a>
 
