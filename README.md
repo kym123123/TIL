@@ -23,3 +23,6 @@ Where I arrange what I learned today.
 * 4주
   * <a href="./2ndweek/2020-07-29.md">2020-07-29 /수업내용 정리 / BEM표기법</a>
 
+* 자바스크립트 이론 정리
+  * 4,5,6 장 이론 정리
+  * <a href="./2ndweek/45678.md">4,5,6 장 이론 정리</a>
