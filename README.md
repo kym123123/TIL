@@ -27,3 +27,5 @@ Where I arrange what I learned today.
   * <a href="./2ndweek/45678.md">4,5,6,7,8,9,10,11,12 장 이론 정리</a>
   * <a href="./13.md">13장(스코프)</a>
 
+* 과제
+  * <a href="./asciiandunicode.md">유니코드와 아스키코드</a>
