@@ -1,4 +1,4 @@
-# TODAY I LEARNED
+#  TODAY I LEARNED
 
 매일 배운내용을 마크다운 문서로 정리하는 곳.
 
@@ -29,6 +29,7 @@ Where I arrange what I learned today.
   * <a href="./14. global.md">14장 (전역 변수)</a>
   * <a href="./15. blocklevelscope.md">15장 (let, const와 블록 레벨 스코프)</a>
   * <a href="./16. propertyattribute.md">16장 프로퍼티 어트리뷰트</a>
+  * <a href="./17. constructor.md">17장 생성자 함수에 의한 객체 생성</a>
   
 * 과제
   * <a href="./asciiandunicode.md">유니코드와 아스키코드</a>
