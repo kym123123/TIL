@@ -33,4 +33,5 @@ Where I arrange what I learned today.
   
 * 과제
   * <a href="./asciiandunicode.md">유니코드와 아스키코드</a>
+  * <a href="./hw1.md">삼항연산자</a>
 
