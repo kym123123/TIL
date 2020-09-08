@@ -3,7 +3,7 @@
 ## 1. 변수 x 가 10 보다 크고 20보다 작을 때, 변수 x 를 출력하는 조건식
 
 ```javascript
-var x = 21;
+var x = 15;
 if( x>10 && x<20 ) {
   console.log(x);
 }
