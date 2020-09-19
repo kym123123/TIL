@@ -34,6 +34,7 @@ Where I arrange what I learned today.
 * 과제
   * <a href="./asciiandunicode.md">유니코드와 아스키코드</a>
   * <a href="./hw1.md">삼항연산자</a>
-  * <a href="./hw-control.md"> 과제1 : 제어문</a>
-  * <a href="./hw2.md">과제2: 자료구조 알고리즘</a>
+  * <a href="./hw-control.md">과제 1 : 제어문</a>
+  * <a href="./hw2.md">과제 2 : 자료구조 알고리즘</a>
+  * <a href="./hw3.md">과제 3 : 8의 등장 횟수, 이상한 문자 만들기 </a>
 
