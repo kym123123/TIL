@@ -32,19 +32,25 @@ toWeirdCase함수는 문자열을 인수로 전달받는다. 문자열 s에 각 
 주의) 문자열 전체의 짝/홀수 인덱스가 아니라 단어(공백을 기준)별로 짝/홀수 인덱스를 판단한다.
 
 ```javascript
-
 function toWeirdCase(s) {
   var newString = '';
-  for(var i = 0; i < s.length; i++) {
-    if(i%2){//인덱스 홀수 소문자로
-      newString = newString + s[i].toLowerCase();
-    }else{//인덱스 짝수 대문자로
-      newString = newString + s[i].toUpperCase();
+  var splitString = s.split(' ');
+  var ChangedString = []; // split된 단어를 대소문자 변환후 저장할 배열
+  for(var i = 0; i < splitString.length; i++) {
+    ChangedString[i] = '';//배열값 초기화, undefined 출력 방지
+    for(var j = 0; j < splitString[i].length; j++) {
+      if(j % 2 === 0) {
+        ChangedString[i] += splitString[i][j].toUpperCase();
+      } else {
+        ChangedString[i] += splitString[i][j].toLowerCase();
+      }
     }
   }
+  newString = ChangedString.join(' ');
   return newString;
 }
 console.log(toWeirdCase('hello world'));    // 'HeLlO WoRlD'
 console.log(toWeirdCase('my name is lee')); // 'My NaMe Is LeE'
+console.log(toWeirdCase('hihih hi hihihi hihi'));
 ```
 
