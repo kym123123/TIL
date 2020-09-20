@@ -35,18 +35,18 @@ toWeirdCase함수는 문자열을 인수로 전달받는다. 문자열 s에 각 
 function toWeirdCase(s) {
   var newString = '';
   var splitString = s.split(' ');
-  var ChangedString = []; // split된 단어를 대소문자 변환후 저장할 배열
+  var changedString = []; // split된 단어를 대소문자 변환후 저장할 배열
   for(var i = 0; i < splitString.length; i++) {
-    ChangedString[i] = '';//배열값 초기화, undefined 출력 방지
+    changedString[i] = '';//배열값 초기화, undefined 출력 방지
     for(var j = 0; j < splitString[i].length; j++) {
       if(j % 2 === 0) {
-        ChangedString[i] += splitString[i][j].toUpperCase();
+        changedString[i] += splitString[i][j].toUpperCase();
       } else {
-        ChangedString[i] += splitString[i][j].toLowerCase();
+        changedString[i] += splitString[i][j].toLowerCase();
       }
     }
   }
-  newString = ChangedString.join(' ');
+  newString = changedString.join(' ');
   return newString;
 }
 console.log(toWeirdCase('hello world'));    // 'HeLlO WoRlD'
