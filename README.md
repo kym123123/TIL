@@ -30,6 +30,11 @@ Where I arrange what I learned today.
   * <a href="./15. blocklevelscope.md">15장 (let, const와 블록 레벨 스코프)</a>
   * <a href="./16. propertyattribute.md">16장 프로퍼티 어트리뷰트</a>
   * <a href="./17. constructor.md">17장 생성자 함수에 의한 객체 생성</a>
+  * <a href="./18. firstClassObject.md">18장 함수와 일급 객체</a>
+  * <a href="./19.prototype.md">19장 프로토타입</a>
+  * <a href="./20.Strict mode.md">20장 strict mode</a>
+  * <a href="./21.builtInObject.md">21장 빌트인 객체</a>
+  * <a href="./22.this.md">22장 this</a>
   
 * 과제
   * <a href="./asciiandunicode.md">유니코드와 아스키코드</a>
