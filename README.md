@@ -35,6 +35,8 @@ Where I arrange what I learned today.
   * <a href="./20.Strict mode.md">20장 strict mode</a>
   * <a href="./21.builtInObject.md">21장 빌트인 객체</a>
   * <a href="./22.this.md">22장 this</a>
+  * <a href="./23.execution context.md">23장 실행 컨텍스트</a>
+  * <a href="./24.closure.md">24장 클로저</a>
   
 * 과제
   * <a href="./asciiandunicode.md">유니코드와 아스키코드</a>
@@ -43,4 +45,5 @@ Where I arrange what I learned today.
   * <a href="./hw2.md">과제 2 : 자료구조 알고리즘</a>
   * <a href="./hw3.md">과제 3 : 8의 등장 횟수, 이상한 문자 만들기 </a>
   * <a href="./hw4.md">과제 4 : 정렬 </a>
+  * <a href="./sorting2.md">과제 5 : 정렬2</a>
 
