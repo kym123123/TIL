@@ -52,6 +52,8 @@ console.log(selectionSort([5, -2, 1, -3, 4, 6,1,2,3]));  // [1, 2, 3, 4, 5, 6]
 
 삽입 정렬을 통해 주어진 배열(array)을 정렬하는 함수를 구현하라. 단, 어떠한 빌트인 함수도 사용하지 않고 for 문을 사용하여 구현하여야 한다.
 
+* 방법1)
+
 ```javascript
 function insertionSort(array) {
   for(let i = 1; i < array.length; i++) {
@@ -72,6 +74,28 @@ console.log(insertionSort([5, 2, 1, 3, 4, 6]));  // [1, 2, 3, 4, 5, 6]
 ```
 
 
+
+* 방법2)
+
+```javascript
+// 2.4 삽입정렬 방법2, 앞의 배열의 요소들을 뒤로 밀고 key 값을 그 사이에 삽입하는 방식
+function insertionSort(array) {
+  for (let i = 1; i < array.length; i++) {
+    let key = array[i];
+    for (let j = i; j > 0; j--) {
+      if (key < array[j - 1]) {
+        array[j] = array[j - 1];
+        array[j - 1] = key; 
+      }
+    }
+  }
+  return array;
+}
+
+console.log(insertionSort([3, 1, 0, -1, 4, 2])); // [-1, 0, 1, 2, 3, 4]
+console.log(insertionSort([2, 4, 5, 1, 3]));     // [1, 2, 3, 4, 5]
+console.log(insertionSort([5, 2, 1, 3, 4, 6]));  // [1, 2, 3, 4, 5, 6]
+```
 
 
 
