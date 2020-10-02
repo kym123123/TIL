@@ -37,6 +37,7 @@ Where I arrange what I learned today.
   * <a href="./22.this.md">22장 this</a>
   * <a href="./23.execution context.md">23장 실행 컨텍스트</a>
   * <a href="./24.closure.md">24장 클로저</a>
+  * <a href="./25.class">25장 클래스</a>
   
 * 과제
   * <a href="./asciiandunicode.md">유니코드와 아스키코드</a>
@@ -47,3 +48,5 @@ Where I arrange what I learned today.
   * <a href="./hw4.md">과제 4 : 정렬 </a>
   * <a href="./sorting2.md">과제 5 : 정렬2</a>
 
+* 케이스 정리
+  * <a href="./classwithloop.md">반복문 내의 함수</a>
