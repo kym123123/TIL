@@ -37,7 +37,7 @@ Where I arrange what I learned today.
   * <a href="./22.this.md">22장 this</a>
   * <a href="./23.execution context.md">23장 실행 컨텍스트</a>
   * <a href="./24.closure.md">24장 클로저</a>
-  * <a href="./25.class">25장 클래스</a>
+  * <a href="./25.class.md">25장 클래스</a>
   
 * 과제
   * <a href="./asciiandunicode.md">유니코드와 아스키코드</a>
