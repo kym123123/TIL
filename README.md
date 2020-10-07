@@ -51,3 +51,4 @@ Where I arrange what I learned today.
 
 * 케이스 정리
   * <a href="./classwithloop.md">반복문 내의 함수</a>
+  * <a href="./badpattern.md">에러를 피하는 코드 작성법</a>
