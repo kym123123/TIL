@@ -14,18 +14,18 @@
 ```javascript
 function selectionSort(array) {
   let min;
-  let IndexOfMin;
+  let indexOfMin;
   for(let i = 0; i < array.length-1; i++) {
-    IndexOfMin = i;
+    indexOfMin = i;
     min = array[i];
     for (let j = i; j < array.length; j++) {
       if(min < array[j]) continue;
       else{
         min = array[j];
-        IndexOfMin = j;
+        indexOfMin = j;
       }
     }
-    [array[i], array[IndexOfMin]] = [array[IndexOfMin], array[i]];
+    [array[i], array[indexOfMin]] = [array[indexOfMin], array[i]];
   }
   return array;
 }
@@ -66,6 +66,29 @@ function insertionSort(array) {
   }
   return array;
   
+}
+
+console.log(insertionSort([3, 1, 0, -1, 4, 2])); // [-1, 0, 1, 2, 3, 4]
+console.log(insertionSort([2, 4, 5, 1, 3]));     // [1, 2, 3, 4, 5]
+console.log(insertionSort([5, 2, 1, 3, 4, 6]));  // [1, 2, 3, 4, 5, 6]
+```
+
+* 방법2) 
+
+  앞의 배열요소가 더 작으면 for문 break
+
+```javascript
+function insertionSort(array) {
+  for (let i = 1; i < array.length; i++) {
+    for (let j = i; j > 0; j--) {
+      if (array[j] > array[j - 1]) break;
+      else {
+        [array[j - 1], array[j]] = [array[j], array[j - 1]];
+      }
+    }
+    //console.log(array);// 바뀌는 과정 확인..
+  }
+  return array;
 }
 
 console.log(insertionSort([3, 1, 0, -1, 4, 2])); // [-1, 0, 1, 2, 3, 4]
