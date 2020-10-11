@@ -62,7 +62,7 @@ function insertionSort(array) {
         [array[j - 1], array[j]] = [array[j], array[j - 1]];
       }
     }
-    console.log(array);// 바뀌는 과정 확인..
+    //console.log(array);// 바뀌는 과정 확인..
   }
   return array;
   
@@ -72,30 +72,4 @@ console.log(insertionSort([3, 1, 0, -1, 4, 2])); // [-1, 0, 1, 2, 3, 4]
 console.log(insertionSort([2, 4, 5, 1, 3]));     // [1, 2, 3, 4, 5]
 console.log(insertionSort([5, 2, 1, 3, 4, 6]));  // [1, 2, 3, 4, 5, 6]
 ```
-
-
-
-* 방법2)
-
-```javascript
-// 2.4 삽입정렬 방법2, 앞의 배열의 요소들을 뒤로 밀고 key 값을 그 사이에 삽입하는 방식
-function insertionSort(array) {
-  for (let i = 1; i < array.length; i++) {
-    let key = array[i];
-    for (let j = i; j > 0; j--) {
-      if (key < array[j - 1]) {
-        array[j] = array[j - 1];
-        array[j - 1] = key; 
-      }
-    }
-  }
-  return array;
-}
-
-console.log(insertionSort([3, 1, 0, -1, 4, 2])); // [-1, 0, 1, 2, 3, 4]
-console.log(insertionSort([2, 4, 5, 1, 3]));     // [1, 2, 3, 4, 5]
-console.log(insertionSort([5, 2, 1, 3, 4, 6]));  // [1, 2, 3, 4, 5, 6]
-```
-
-
 
