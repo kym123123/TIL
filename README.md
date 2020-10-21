@@ -48,7 +48,8 @@ Where I arrange what I learned today.
   * <a href="./hw3.md">과제 3 : 8의 등장 횟수, 이상한 문자 만들기 </a>
   * <a href="./hw4.md">과제 4 : 정렬 </a>
   * <a href="./sorting2.md">과제 5 : 정렬2</a>
-
+* <a href="./HOF.md">과제 6 : 배열 HOF 문제</a>
+  
 * 케이스 정리
   * <a href="./classwithloop.md">반복문 내의 함수</a>
   * <a href="./badpattern.md">에러를 피하는 코드 작성법</a>
