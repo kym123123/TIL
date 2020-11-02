@@ -86,6 +86,7 @@ $nav.onclick = e => {
 
 $todos.oninput = e => {
   updateCompleted(e.target);
+  render();
   displayOnClearBtn();
 };
 
@@ -109,6 +110,5 @@ $clearBtn.onclick = () => {
   displayOnClearBtn();
   render();
 };
-
 ```
 
