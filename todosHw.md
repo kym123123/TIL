@@ -95,6 +95,7 @@ $todos.onclick = e => {
 
   todos = todos.filter(todo => +e.target.parentNode.id !== todo.id);
   $todos.removeChild(e.target.parentNode);
+  displayOnClearBtn();
 };
 
 $completeAll.onchange = () => {
