@@ -49,6 +49,7 @@ Where I arrange what I learned today.
   * <a href="./hw4.md">과제 4 : 정렬 </a>
   * <a href="./sorting2.md">과제 5 : 정렬2</a>
   * <a href="./HOF.md">과제 6 : 배열 HOF 문제</a>
+  * <a href="./todosHw.md">과제 7 : todos 코드 작성</a>
   
 * 케이스 정리
   * <a href="./classwithloop.md">반복문 내의 함수</a>
