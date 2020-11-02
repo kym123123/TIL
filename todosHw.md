@@ -100,8 +100,8 @@ $todos.onclick = e => {
 
 $completeAll.onchange = () => {
   const checkCompleted = todos.every(todo => todo.completed === true);
-  if (checkCompleted === true) todos.forEach(todo => todo.completed = !todo.completed);
-  else if (checkCompleted === false) todos.forEach(todo => todo.completed = true);
+  if (checkCompleted) todos.forEach(todo => todo.completed = !todo.completed);
+  else if (!checkCompleted) todos.forEach(todo => todo.completed = true);
   displayOnClearBtn();
   render();
 };
