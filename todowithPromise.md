@@ -33,46 +33,33 @@ const render = () => {
 
 const request = {
   get(url) {
-    return fetch(url)
-      .then(res => res.json()) // 응답값중에서 json으로 작성된 데이터만 가져옴.
-      .then(_todos => { todos = _todos; }) // todos배열에 가져온 값을 저장한다.
-      .then(render) // 가져온값을 화면에 표시
-      .catch(console.error);
+    return fetch(url);
   },
   post(url, payload) {
     return fetch(url, {
       method: 'POST',
       headers: { 'content-Type': 'application/json' },
       body: JSON.stringify(payload)
-    })
-      .then(res => res.json()) // 응답값중에서 json으로 작성된 데이터만 가져옴.
-      .then(_todos => { todos = _todos; }) // todos배열에 가져온 값을 저장한다.
-      .then(render) // 가져온값을 화면에 표시
-      .catch(console.error);
+    });
   },
   patch(url, payload) {
     return fetch(url, {
       method: 'PATCH',
       headers: { 'content-Type': 'application/json' },
       body: JSON.stringify(payload)
-    })
-      .then(res => res.json()) // 응답값중에서 json으로 작성된 데이터만 가져옴.
-      .then(_todos => { todos = _todos; }) // todos배열에 가져온 값을 저장한다.
-      .then(render) // 가져온값을 화면에 표시
-      .catch(console.error);
+    });
   },
   delete(url) {
-    return fetch(url, { method: 'DELETE' })
-      .then(res => res.json()) // 응답값중에서 json으로 작성된 데이터만 가져옴.
-      .then(_todos => { todos = _todos; }) // todos배열에 가져온 값을 저장한다.
-      .then(render) // 가져온값을 화면에 표시
-      .catch(console.error);
+    return fetch(url, { method: 'DELETE' });
   }
 };
 
 const fetchTodos = () => {
-  request.get('/todos');
-  // fetch('/todos')
+  request.get('/todos')
+    .then(res => res.json()) // 응답값중에서 json으로 작성된 데이터만 가져옴.
+    .then(_todos => { todos = _todos; }) // todos배열에 가져온 값을 저장한다.
+    .then(render) // 가져온값을 화면에 표시
+    .catch(console.error);
 };
 
 const generateNextId = () => (todos.length ? Math.max(...todos.map(todo => todo.id)) + 1 : 1);
@@ -81,11 +68,15 @@ const generateNextId = () => (todos.length ? Math.max(...todos.map(todo => todo.
 window.onload = fetchTodos;
 
 $inputTodo.onkeyup = e => {
-  if (e.key !== 'Enter') return;
+  if (e.key !== 'Enter' || !$inputTodo.value) return;
 
   const newTodo = { id: generateNextId(), content: e.target.value, completed: false };
   $inputTodo.value = '';
-  request.post('/todos', newTodo);
+  request.post('/todos', newTodo)
+    .then(res => res.json()) // 응답값중에서 json으로 작성된 데이터만 가져옴.
+    .then(_todos => { todos = _todos; }) // todos배열에 가져온 값을 저장한다.
+    .then(render) // 가져온값을 화면에 표시
+    .catch(console.error);
 };
 
 $nav.onclick = e => {
@@ -101,25 +92,40 @@ $todos.onchange = e => {
   const { id } = e.target.parentNode;
   const { checked } = e.target;
 
-  request.patch(`/todos/${id}`, { completed: checked });
+  request.patch(`/todos/${id}`, { completed: checked })
+    .then(res => res.json()) // 응답값중에서 json으로 작성된 데이터만 가져옴.
+    .then(_todos => { todos = _todos; }) // todos배열에 가져온 값을 저장한다.
+    .then(render) // 가져온값을 화면에 표시
+    .catch(console.error);
 };
 
 // 삭제하는 버튼 만들기
 $todos.onclick = e => {
   if (!e.target.matches('.remove-todo')) return;
   const idToRemove = e.target.parentNode.id;
-  request.delete(`/todos/${idToRemove}`);
+  request.delete(`/todos/${idToRemove}`)
+    .then(res => res.json()) // 응답값중에서 json으로 작성된 데이터만 가져옴.
+    .then(_todos => { todos = _todos; }) // todos배열에 가져온 값을 저장한다.
+    .then(render) // 가져온값을 화면에 표시
+    .catch(console.error);
 };
 
 $completeAll.oninput = e => {
   if (!e.target.matches('.complete-all > input')) return;
   const { checked } = e.target;
-  request.patch('/todos', { completed: checked });
+  request.patch('/todos', { completed: checked })
+    .then(res => res.json()) // 응답값중에서 json으로 작성된 데이터만 가져옴.
+    .then(_todos => { todos = _todos; }) // todos배열에 가져온 값을 저장한다.
+    .then(render) // 가져온값을 화면에 표시
+    .catch(console.error);
 };
 
-$clearBtn.onclick = e => {
-  request.delete('/todos/completed');
+$clearBtn.onclick = () => {
+  request.delete('/todos/completed')
+    .then(res => res.json()) // 응답값중에서 json으로 작성된 데이터만 가져옴.
+    .then(_todos => { todos = _todos; }) // todos배열에 가져온 값을 저장한다.
+    .then(render) // 가져온값을 화면에 표시
+    .catch(console.error);
 };
-
 ```
 
