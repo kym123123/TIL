@@ -42,7 +42,7 @@ Where I arrange what I learned today.
   
 * 과제
   * <a href="./asciiandunicode.md">유니코드와 아스키코드</a>
-  * <a href="./hw1.md">삼항연산자</a>
+  * <a href="./hw1.md">삼항연산자</a>`
   * <a href="./hw-control.md">과제 1 : 제어문</a>
   * <a href="./hw2.md">과제 2 : 자료구조 알고리즘</a>
   * <a href="./hw3.md">과제 3 : 8의 등장 횟수, 이상한 문자 만들기 </a>
@@ -50,6 +50,7 @@ Where I arrange what I learned today.
   * <a href="./sorting2.md">과제 5 : 정렬2</a>
   * <a href="./HOF.md">과제 6 : 배열 HOF 문제</a>
   * <a href="./todosHw.md">과제 7 : todos 코드 작성</a>
+  * <a href="./todowithPromise.md">과제8 : todos with promise</a>
   
 * 케이스 정리
   * <a href="./classwithloop.md">반복문 내의 함수</a>
