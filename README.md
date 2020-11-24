@@ -22,7 +22,6 @@ Where I arrange what I learned today.
   * <a href="./2ndweek/20200726ARIA.md">2020-07-26 ARIA의 속성,상태,역할 및 사용 예시/주의사항</a>
 * 4주
   * <a href="./2ndweek/2020-07-29.md">2020-07-29 /수업내용 정리 / BEM표기법</a>
-
 * 자바스크립트 이론 정리
   * <a href="./2ndweek/45678.md">4,5,6,7,8,9,10,11,12 장 이론 정리</a>
   * <a href="./13.md">13장 (스코프)</a>
@@ -39,7 +38,6 @@ Where I arrange what I learned today.
   * <a href="./24.closure.md">24장 클로저</a>
   * <a href="./25.class.md">25장 클래스</a>
   * <a href="./25.ES6function.md">26장 ES6 함수의 추가기능</a>
-  
 * 과제
   * <a href="./asciiandunicode.md">유니코드와 아스키코드</a>
   * <a href="./hw1.md">삼항연산자</a>`
@@ -51,7 +49,9 @@ Where I arrange what I learned today.
   * <a href="./HOF.md">과제 6 : 배열 HOF 문제</a>
   * <a href="./todosHw.md">과제 7 : todos 코드 작성</a>
   * <a href="./todowithPromise.md">과제 8 : todos with promise</a>
-  
 * 케이스 정리
   * <a href="./classwithloop.md">반복문 내의 함수</a>
   * <a href="./badpattern.md">에러를 피하는 코드 작성법</a>
+* 데이터베이스
+  * <a href="./database1.md">1) 데이터베이스 기초</a>
+  * <a href="./database2.md">2) 관계형 데이터베이스</a>>
