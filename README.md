@@ -61,7 +61,7 @@ HTML, 웹 접근성
   * <a href="./sass2.md">2) SassScript</a>
   * <a href="./sass3.md">3) nesting, import, extend, 조건과 반복, Mixin, Function</a>
 * React
-  * 1) <a href="./React1.md"> JSX 소개 </a>
-  * 2) <a href="React2.md"> 엘리먼트 렌더링</a>
-  * <a href="React3.md">3) Component와 Props</a>
+  1.  <a href="./React1.md"> JSX 소개 </a>
+  2.  <a href="React2.md"> 엘리먼트 렌더링</a>
+  3. <a href="React3.md">3) Component와 Props</a>
 
