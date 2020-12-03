@@ -6,10 +6,11 @@ Where I arrange what I learned today.
 
 
 
-## 분류
+## 
+
+HTML, 웹 접근성
 
 * 2주차
-
   * <a href="./2ndweek/2020-07-13.md">2020-07-13 / Git과 Git Bash 기초 명령어,  visual studio code와 github의 연동,  HTML(head태그 내부 태그들의 의미 파악)</a>
   * <a href="./2ndweek/2020-07-14.md">2020-07-14 / 웹 표준, CSS의 네이밍 방법론과 아웃라인 배치, 스타일,초기화 적용방식 및 웹 폰트(Web Font)</a>
   * <a href="./2ndweek/2020-07-15.md">2020-07-15/ 레이아웃을 위한 방법 /Float와 clearfix / Flex</a>
@@ -59,4 +60,8 @@ Where I arrange what I learned today.
   * <a href="./sass1.md">1) Basic</a>
   * <a href="./sass2.md">2) SassScript</a>
   * <a href="./sass3.md">3) nesting, import, extend, 조건과 반복, Mixin, Function</a>
+* React
+  * 1) <a href="./React1.md"> JSX 소개 </a>
+  * 2) <a href="React2.md"> 엘리먼트 렌더링</a>
+  * <a href="React3.md">3) Component와 Props</a>
 
