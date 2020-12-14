@@ -105,7 +105,7 @@
 
 * ![image](https://user-images.githubusercontent.com/51959017/102106619-23a3d500-3e74-11eb-9028-dce601f4dbe6.png)
 
-* ![image-20201215012351034](/Users/yongminkim/Library/Application Support/typora-user-images/image-20201215012351034.png) <= 왜 6이 아닌 3만큼 증가하였으며, 매 click 메서드가 호출되면서 찍힌 console.log의 결과는 모두 0이 나왔을까?
+* ![image](https://user-images.githubusercontent.com/51959017/102114092-2b1bac00-3e7d-11eb-89ac-0894eb843499.png) <= 왜 6이 아닌 3만큼 증가하였으며, click 메서드 안에서 세차례 add 메서드가 호출되면서 찍힌 console.log의 결과는 모두 0이 나왔을까?
 
 * setState 메서드는 비동기로 동작하기 때문이다. **setState를 이벤트 핸들러 안에서 호출한다면. 호출되는 setState에 의해서 업데이트가 요청되는 state의 count의 값은 호출 이후 즉각적으로 반영되지 않는다. setState는 이벤트 핸들러 안에서 현재 state의 값에 대한 변화를 요청하기만 하는 것이고, 그 요청사항은 이벤트 핸들러가 종료되면서 react에 의해서 효율적으로 상태가 갱신된다.**
 
