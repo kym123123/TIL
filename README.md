@@ -63,5 +63,8 @@ HTML, 웹 접근성
 * React
   1.  <a href="./React1.md"> JSX 소개 </a>
   2.  <a href="React2.md"> 엘리먼트 렌더링</a>
-  3. <a href="React3.md">3) Component와 Props</a>
+  3. <a href="React3.md"> Component와 Props</a>
+  4.  <a href="React4.md"> 이벤트 처리하기</a>
+* React 동작
+  * <a href="./stateandSetState.md">비동기로 동작하는 setState에 대해서</a>
 
