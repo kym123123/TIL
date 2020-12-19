@@ -239,11 +239,9 @@ class ClassComponent extends React.Component {
   };
 
   click = () => {
-    this.add(1); // count 1 증가 console.log = 1 출력예상
-    this.add(2); // count 2 증가 console.log = 2 출력예상
-    this.add(3); // count 3 증가 console.log = 3 출력예상
-    // 1 + 2 + 3 = 6
-    // 총 6이 증가하게 되는 행동을 예상
+    this.add(1); // count 1 증가 요청
+    this.add(2); // count 2 증가 요청
+    this.add(3); // count 3 증가 요청
   };
 
   render() {
@@ -281,11 +279,9 @@ class ClassComponent extends React.Component {
   };
 
   click = () => {
-    this.add(1); // count 1 증가 console.log = 1 출력예상
-    this.add(2); // count 2 증가 console.log = 2 출력예상
-    this.add(3); // count 3 증가 console.log = 3 출력예상
-    // 1 + 2 + 3 = 6
-    // 총 6이 증가하게 되는 행동을 예상
+    this.add(1); // count 1 증가 요청
+    this.add(2); // count 2 증가 요청
+    this.add(3); // count 3 증가 요청
   };
   shouldComponentUpdate() {
     console.log('should Update?', this.state);
