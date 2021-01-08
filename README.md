@@ -22,23 +22,10 @@ HTML, 웹 접근성
   * <a href="./2ndweek/2020-07-2223.md">2020-07-22,23 / figure,  time / ARIA(accessible rich internet application)</a>
   * <a href="./2ndweek/20200726ARIA.md">2020-07-26 ARIA의 속성,상태,역할 및 사용 예시/주의사항</a>
 * 4주
+  
   * <a href="./2ndweek/2020-07-29.md">2020-07-29 /수업내용 정리 / BEM표기법</a>
-* 자바스크립트 이론 정리
-  * <a href="./2ndweek/45678.md">4,5,6,7,8,9,10,11,12 장 이론 정리</a>
-  * <a href="./13.md">13장 (스코프)</a>
-  * <a href="./14. global.md">14장 (전역 변수)</a>
-  * <a href="./15. blocklevelscope.md">15장 (let, const와 블록 레벨 스코프)</a>
-  * <a href="./16. propertyattribute.md">16장 프로퍼티 어트리뷰트</a>
-  * <a href="./17. constructor.md">17장 생성자 함수에 의한 객체 생성</a>
-  * <a href="./18. firstClassObject.md">18장 함수와 일급 객체</a>
-  * <a href="./19.prototype.md">19장 프로토타입</a>
-  * <a href="./20.Strict mode.md">20장 strict mode</a>
-  * <a href="./21.builtInObject.md">21장 빌트인 객체</a>
-  * <a href="./22.this.md">22장 this</a>
-  * <a href="./23.execution context.md">23장 실행 컨텍스트</a>
-  * <a href="./24.closure.md">24장 클로저</a>
-  * <a href="./25.class.md">25장 클래스</a>
-  * <a href="./25.ES6function.md">26장 ES6 함수의 추가기능</a>
+  
+  
 * 과제
   * <a href="./asciiandunicode.md">유니코드와 아스키코드</a>
   * <a href="./hw1.md">삼항연산자</a>`
@@ -66,5 +53,6 @@ HTML, 웹 접근성
   3. <a href="React3.md"> Component와 Props</a>
   4.  <a href="React4.md"> 이벤트 처리하기</a>
 * React 동작
+  
   * <a href="./stateandSetState.md">비동기로 동작하는 setState에 대해서</a>
 
