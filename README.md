@@ -25,7 +25,6 @@ HTML, 웹 접근성
   
   * <a href="./2ndweek/2020-07-29.md">2020-07-29 /수업내용 정리 / BEM표기법</a>
   
-  
 * 과제
   * <a href="./asciiandunicode.md">유니코드와 아스키코드</a>
   * <a href="./hw1.md">삼항연산자</a>`
@@ -56,3 +55,13 @@ HTML, 웹 접근성
   
   * <a href="./stateandSetState.md">비동기로 동작하는 setState에 대해서</a>
 
+
+
+* 러버덕 스터디
+
+  * 1주
+    * <a href="./HTTPcookieandStorage.md">cookies와 storages(session/local)</a>
+  * <a href="./Promise.md">프로미스</a>
+    * <a href="./AsyncAwait.md">Async / Await</a>
+  
+  
