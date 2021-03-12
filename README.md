@@ -59,9 +59,9 @@ HTML, 웹 접근성
 
 * 러버덕 스터디
 
-  * 1주
-    * <a href="./HTTPcookieandStorage.md">cookies와 storages(session/local)</a>
-  * <a href="./Promise.md">프로미스</a>
+  * 1주차
+    * <a href="./HTTPcookieandStorage.md">cookies와 storages(session/local)의 차이점</a>
+  	* <a href="./Promise.md">프로미스</a>
     * <a href="./AsyncAwait.md">Async / Await</a>
   
   
