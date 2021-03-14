@@ -55,7 +55,9 @@ HTML, 웹 접근성
   
   * <a href="./stateandSetState.md">비동기로 동작하는 setState에 대해서</a>
 
-
+* Typescript
+  * <a href="./ts-2.md">chapter2 - 타입스크립트 환경설정</a>
+  * <a href="ts-3.md">chapter3 - 타입의 모든 것</a>
 
 * 러버덕 스터디
 
