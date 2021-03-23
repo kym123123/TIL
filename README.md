@@ -58,12 +58,14 @@ HTML, 웹 접근성
 * Typescript
   * <a href="./ts-2.md">chapter2 - 타입스크립트 환경설정</a>
   * <a href="ts-3.md">chapter3 - 타입의 모든 것</a>
-
+* <a href="./ts-4.md">chapter4 - 호출 시그니처, 제네릭</a>
+  
 * 러버덕 스터디
 
   * 1주차
     * <a href="./HTTPcookieandStorage.md">cookies와 storages(session/local)의 차이점</a>
   	* <a href="./Promise.md">프로미스</a>
     * <a href="./AsyncAwait.md">Async / Await</a>
-  
+  * 3주차
+    * <a href="./web-protocol.md">HTTP protocol</a>
   
