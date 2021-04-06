@@ -59,7 +59,7 @@ HTML, 웹 접근성
   * <a href="./TIL/ts-2.md">chapter2 - 타입스크립트 환경설정</a>
   * <a href="./TIL/ts-3.md">chapter3 - 타입의 모든 것</a>
   * <a href="./TIL/ts-4.md">chapter4 - 호출 시그니처, 제네릭</a>
-  * <a href="./ts-5.md">chapter5 - 클래스와 상속</a>
+  * <a href="./TIL/ts-5.md">chapter5 - 클래스와 상속</a>
   
 * 러버덕 스터디
 
@@ -71,5 +71,5 @@ HTML, 웹 접근성
     * <a href="./TIL/web-protocol.md">HTTP protocol</a>
     * <a href="./TIL/browserrenderingProcess.md">브라우저의 렌더링과정</a>
   * 5주차
-    * <a href="./Web Component.md">웹 컴포넌트 (커스텀 엘리먼트, Shadow DOM, template)</a>
+    * <a href="./TIL/Web Component.md">웹 컴포넌트 (커스텀 엘리먼트, Shadow DOM, template)</a>
   
