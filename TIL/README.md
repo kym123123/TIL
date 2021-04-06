@@ -59,6 +59,7 @@ HTML, 웹 접근성
   * <a href="./TIL/ts-2.md">chapter2 - 타입스크립트 환경설정</a>
   * <a href="./TIL/ts-3.md">chapter3 - 타입의 모든 것</a>
   * <a href="./TIL/ts-4.md">chapter4 - 호출 시그니처, 제네릭</a>
+  * <a href="./ts-5.md">chapter5 - 클래스와 상속</a>
   
 * 러버덕 스터디
 
