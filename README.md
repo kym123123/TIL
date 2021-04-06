@@ -27,7 +27,7 @@ HTML, 웹 접근성
   
 * 과제
   * <a href="./TIL/asciiandunicode.md">유니코드와 아스키코드</a>
-  * <a href="./TIL/hw1.md">삼항연산자</a>
+  * <a href="./TIL/hw1.md">삼항연산자</a>`
   * <a href="./TIL/hw-control.md">과제 1 : 제어문</a>
   * <a href="./TIL/hw2.md">과제 2 : 자료구조 알고리즘</a>
   * <a href="./TIL/hw3.md">과제 3 : 8의 등장 횟수, 이상한 문자 만들기 </a>
@@ -47,10 +47,10 @@ HTML, 웹 접근성
   * <a href="./TIL/sass2.md">2) SassScript</a>
   * <a href="./TIL/sass3.md">3) nesting, import, extend, 조건과 반복, Mixin, Function</a>
 * React
-  * <a href="./TIL/React1.md"> JSX 소개 </a>
-  * <a href="./TIL/React2.md"> 엘리먼트 렌더링</a>
-  * <a href="./TIL/React3.md"> Component와 Props</a>
-  * <a href="./TIL/React4.md"> 이벤트 처리하기</a>
+  1. <a href="./TIL/React1.md"> JSX 소개 </a>
+  2. <a href="./TIL/React2.md"> 엘리먼트 렌더링</a>
+  3. <a href="./TIL/React3.md"> Component와 Props</a>
+  4. <a href="./TIL/React4.md"> 이벤트 처리하기</a>
 
 * React 동작
   * <a href="./TIL/stateandSetState.md">비동기로 동작하는 setState에 대해서</a>
@@ -59,7 +59,7 @@ HTML, 웹 접근성
   * <a href="./TIL/ts-2.md">chapter2 - 타입스크립트 환경설정</a>
   * <a href="./TIL/ts-3.md">chapter3 - 타입의 모든 것</a>
   * <a href="./TIL/ts-4.md">chapter4 - 호출 시그니처, 제네릭</a>
-  * <a href="./TIL/ts-5.md">chapter 5 - 클래스와 상속</a>
+  * <a href="./ts-5.md">chapter5 - 클래스와 상속</a>
   
 * 러버덕 스터디
 
@@ -70,6 +70,6 @@ HTML, 웹 접근성
   * 3주차
     * <a href="./TIL/web-protocol.md">HTTP protocol</a>
     * <a href="./TIL/browserrenderingProcess.md">브라우저의 렌더링과정</a>
-  * 4주차
-    * graphQL
+  * 5주차
+    * <a href="./Web Component.md">웹 컴포넌트 (커스텀 엘리먼트, Shadow DOM, template)</a>
   
