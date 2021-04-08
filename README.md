@@ -24,7 +24,6 @@ HTML, 웹 접근성
 * 4주
   
   * <a href="./2ndweek/2020-07-29.md">2020-07-29 /수업내용 정리 / BEM표기법</a>
-  
 * 과제
   * <a href="./TIL/asciiandunicode.md">유니코드와 아스키코드</a>
   * <a href="./TIL/hw1.md">삼항연산자</a>`
@@ -51,16 +50,14 @@ HTML, 웹 접근성
   2. <a href="./TIL/React2.md"> 엘리먼트 렌더링</a>
   3. <a href="./TIL/React3.md"> Component와 Props</a>
   4. <a href="./TIL/React4.md"> 이벤트 처리하기</a>
-
 * React 동작
   * <a href="./TIL/stateandSetState.md">비동기로 동작하는 setState에 대해서</a>
-
 * Typescript
+  * <a href="./TIL/ts-content.md">이웅재 강사님 ts 세미나 정리</a>
   * <a href="./TIL/ts-2.md">chapter2 - 타입스크립트 환경설정</a>
   * <a href="./TIL/ts-3.md">chapter3 - 타입의 모든 것</a>
   * <a href="./TIL/ts-4.md">chapter4 - 호출 시그니처, 제네릭</a>
   * <a href="./TIL/ts-5.md">chapter5 - 클래스와 상속</a>
-  
 * 러버덕 스터디
 
   * 1주차
