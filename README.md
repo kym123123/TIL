@@ -58,6 +58,8 @@ HTML, 웹 접근성
   * <a href="./TIL/ts-3.md">chapter3 - 타입의 모든 것</a>
   * <a href="./TIL/ts-4.md">chapter4 - 호출 시그니처, 제네릭</a>
   * <a href="./TIL/ts-5.md">chapter5 - 클래스와 상속</a>
+* React Native
+  * <a href="./TIL/React-navigation-type-checking.md">react navigation V5</a>
 * 러버덕 스터디
 
   * 1주차
@@ -73,3 +75,5 @@ HTML, 웹 접근성
     * <a href="./TIL/react-hooks.md">리액트 HOOKS</a>
   * 7주차
     * <a href="./TIL/List & Key.md">Key attribute</a>
+  * 8주차
+    * <a href="./TIL/Reactmemo.md">React.memo</a>
