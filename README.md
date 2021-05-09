@@ -58,6 +58,8 @@ HTML, 웹 접근성
   * <a href="./TIL/ts-3.md">chapter3 - 타입의 모든 것</a>
   * <a href="./TIL/ts-4.md">chapter4 - 호출 시그니처, 제네릭</a>
   * <a href="./TIL/ts-5.md">chapter5 - 클래스와 상속</a>
+  * <a href="./TIL/TypeCasting.md">타입 캐스팅 (Type Casting)</a>
+  * <a href="./TIL/TypeAssertion.md">타입 어셔션 (Type Assertion)</a>
   * <a href="./TIL/typesafe-actions.md">Redux - typesafe-actions 사용 메서드 정리</a>
 * React Native
   * <a href="./TIL/React-native with typescript.md">react-native community설치 및 typescript template 사용법</a>
