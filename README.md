@@ -60,6 +60,7 @@ HTML, 웹 접근성
   * <a href="./TIL/ts-5.md">chapter5 - 클래스와 상속</a>
   * <a href="./TIL/typesafe-actions.md">Redux - typesafe-actions 사용 메서드 정리</a>
 * React Native
+  * <a href="./TIL/React-native with typescript.md">react-native community설치 및 typescript template 사용법</a>
   * <a href="./TIL/React-navigation-type-checking.md">react navigation V5</a>
   * <a href="./TIL/React-native-vector-icons.md">react-native vector icons 환경설정 및 사용법</a>
   * <a href="./TIL/rn-debugger.md">react-native debugger 설치 및 사용법</a>
