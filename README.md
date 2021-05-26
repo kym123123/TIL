@@ -92,6 +92,7 @@ HTML, 웹 접근성
     * <a href="./TIL/Reactmemo.md">React.memo</a>
   * 10주차
     * <a href="./TIL/FunctionContextComponentClassContextComponent.md">useReducer, useContext</a>
-  
   * 11주차
     * <a href="./TIL/SSR&CSR.md">CSR & SSR</a>
+  * 12주차
+    * <a href="./TIL/DesignPattern.md">javascript 디자인 패턴</a>
