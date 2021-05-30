@@ -75,7 +75,7 @@ HTML, 웹 접근성
   * <a href="./TIL/Recoil3.md">AtomFamily</a>
   * <a href="./TIL/Recoil4.md">SelectorFamily</a>
   * <a href="./TIL/Recoil5.md">Data Fetching - Basic</a>
-  * <a href="./TIL/Recoil6">Data Fetching - Advanced</a>
+  * <a href="./TIL/Recoil6.md">Data Fetching - Advanced</a>
 * 러버덕 스터디
   * <a href="./TIL/HTTPcookieandStorage.md">cookies와 storages(session/local)의 차이점</a>
   * <a href="./TIL/Promise.md">프로미스</a>
