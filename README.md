@@ -4,10 +4,6 @@
 
 Where I arrange what I learned today.
 
-
-
-## 
-
 HTML, 웹 접근성
 
 * 2주차
@@ -73,26 +69,23 @@ HTML, 웹 접근성
   * <a href="./TIL/MINIFICATIONMANGLING.md">Minification, Mangling</a>
   * <a href="./TIL/DevelopAndProduction.md">Development Mode & Production Mode</a>
   * <a href="./TIL/developMode.md">개발모드 설정</a>
+* Recoil
+  * <a href="./TIL/Recoil1.md">Recoil </a>
+  * <a href="./TIL/Recoil2.md">Atom & Selector</a>
+  * <a href="./TIL/Recoil3.md">AtomFamily</a>
+  * <a href="./TIL/Recoil4.md">SelectorFamily</a>
+  * <a href="./TIL/Recoil5.md">Data Fetching</a>
 * 러버덕 스터디
+  * <a href="./TIL/HTTPcookieandStorage.md">cookies와 storages(session/local)의 차이점</a>
+  * <a href="./TIL/Promise.md">프로미스</a>
+  * <a href="./TIL/AsyncAwait.md">Async / Await</a>
+  * <a href="./TIL/web-protocol.md">HTTP protocol</a>
+  * <a href="./TIL/browserrenderingProcess.md">브라우저의 렌더링과정</a>
+  * <a href="./TIL/Web Component.md">웹 컴포넌트 (커스텀 엘리먼트, Shadow DOM, template)</a>
+  * <a href="./TIL/react-hooks.md">리액트 HOOKS</a>
+  * <a href="./TIL/ListandKey.md">React의 Key attribute</a>
+  * <a href="./TIL/Reactmemo.md">React.memo</a>
+  * <a href="./TIL/FunctionContextComponentClassContextComponent.md">useReducer, useContext</a>
+  * <a href="./TIL/SSR&CSR.md">CSR & SSR</a>
+  * <a href="./TIL/DesignPattern.md">javascript 디자인 패턴</a>
 
-  * 1주차
-    * <a href="./TIL/HTTPcookieandStorage.md">cookies와 storages(session/local)의 차이점</a>
-  	* <a href="./TIL/Promise.md">프로미스</a>
-    * <a href="./TIL/AsyncAwait.md">Async / Await</a>
-  * 3주차
-    * <a href="./TIL/web-protocol.md">HTTP protocol</a>
-    * <a href="./TIL/browserrenderingProcess.md">브라우저의 렌더링과정</a>
-  * 5주차
-    * <a href="./TIL/Web Component.md">웹 컴포넌트 (커스텀 엘리먼트, Shadow DOM, template)</a>
-  * 6주차
-    * <a href="./TIL/react-hooks.md">리액트 HOOKS</a>
-  * 7주차
-    * <a href="./TIL/List & Key.md">Key attribute</a>
-  * 8주차
-    * <a href="./TIL/Reactmemo.md">React.memo</a>
-  * 10주차
-    * <a href="./TIL/FunctionContextComponentClassContextComponent.md">useReducer, useContext</a>
-  * 11주차
-    * <a href="./TIL/SSR&CSR.md">CSR & SSR</a>
-  * 12주차
-    * <a href="./TIL/DesignPattern.md">javascript 디자인 패턴</a>
