@@ -89,4 +89,6 @@ HTML, 웹 접근성
   * <a href="./TIL/FunctionContextComponentClassContextComponent.md">useReducer, useContext</a>
   * <a href="./TIL/SSR&CSR.md">CSR & SSR</a>
   * <a href="./TIL/DesignPattern.md">javascript 디자인 패턴</a>
+  * <a href="./TIL/class-func.md">클래스형 함수형 컴포넌트의 동작 특성</a>
+  * <a href="./TIL/SOLID.md">SOLID 원칙</a>
 
