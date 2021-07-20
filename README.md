@@ -92,4 +92,5 @@ HTML, 웹 접근성
   * <a href="./TIL/class-func.md">클래스형 함수형 컴포넌트의 동작 특성</a>
   * <a href="./TIL/SOLID.md">SOLID 원칙</a>
   * <a href="./TIL/webpackrubberduck.md">webpack </a>
+  * <a href="./TIL/seo.md">SEO</a>
 
