@@ -74,6 +74,7 @@ HTML, 웹 접근성
   * <a href="./TIL/Recoil2.md">Atom & Selector</a>
   * <a href="./TIL/Recoil3.md">AtomFamily</a>
   * <a href="./TIL/Recoil4.md">SelectorFamily</a>
+  * <a href="./TIL/Loadable.md">Loadable</a>
   * <a href="./TIL/Recoil5.md">Data Fetching - Basic</a>
   * <a href="./TIL/Recoil6.md">Data Fetching - Advanced</a>
 * 러버덕 스터디
